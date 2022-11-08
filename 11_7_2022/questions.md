@@ -25,7 +25,7 @@
 ## 5: How would you write an enhanced for loop in Java that iterates through all dogs in an array but only calls the dog's bark method if its color field is "gray"?
 - for(gray:dogs){bark()}
 - *Corrections*: for ( dog : dogs) { 
-if (dog.color = "gray")
+if (dog.color == "gray")
 dog.bark();
 }
 
